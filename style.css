@@ -94,10 +94,10 @@ width: 90%;
 height: 90%;}
 
 footer
-{height: 80px;
+{height: 150px;
 padding-top: 20px;
 text-align: center;
 color: white;
-font-size: 2em;
+font-size: 3em;
 font-family: var(--game1);
 background-image: linear-gradient(to bottom, var(--cor2), var(--cor3), var(--cor4));}
