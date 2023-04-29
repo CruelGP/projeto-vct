@@ -98,6 +98,6 @@ footer
 padding-top: 20px;
 text-align: center;
 color: white;
-font-size: 3em;
+font-size: 2em;
 font-family: var(--game1);
 background-image: linear-gradient(to bottom, var(--cor2), var(--cor3), var(--cor4));}
