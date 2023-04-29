@@ -22,7 +22,7 @@ body
 {background-color: var(--cor5);}
 
 header
-{height: 150px;
+{height: 200px;
 background-image: linear-gradient(to bottom, var(--cor0), var(--cor1), var(--cor2));}
 
 header > h1
@@ -98,6 +98,6 @@ footer
 padding-top: 20px;
 text-align: center;
 color: white;
-font-size: 5em;
+font-size: 3em;
 font-family: var(--game1);
 background-image: linear-gradient(to bottom, var(--cor2), var(--cor3), var(--cor4));}
