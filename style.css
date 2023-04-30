@@ -7,9 +7,9 @@ src: url('fontes/Fun\ Games.otf') format('opentype');}
 :root
 {--game1: 'fungames', 'cursive';
 
---cor0:#ff0400;
+--cor0:#ff008c;
 --cor1:#ff3e1c;
---cor2:#FA4801;
+--cor2:#ff0000;
 --cor3:#E05F00;
 --cor4:#FA9411;
 --cor5:#2e2e2e;}
@@ -23,7 +23,7 @@ body
 
 header
 {height: 200px;
-background-image: linear-gradient(to bottom, var(--cor0), var(--cor1), var(--cor2));}
+background-image: linear-gradient(to bottom, var(--cor0), var(--cor2));}
 
 header > h1
 {color: white;
