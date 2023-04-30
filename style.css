@@ -19,7 +19,8 @@ src: url('fontes/Fun\ Games.otf') format('opentype');}
 padding: 0px;}
 
 body
-{background-image: url('Imagens/vava.jpg');}
+{background-image: url('Imagens/vava.jpg');
+background-position: right top;}
 
 header
 {height: 200px;
