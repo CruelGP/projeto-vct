@@ -20,7 +20,10 @@ padding: 0px;}
 
 body
 {background-image: url('Imagens/vava.jpg');
-background-position: right top;}
+background-position: center center;
+background-size: cover;
+background-attachment: fixed;
+height: 100vh;}
 
 header
 {height: 200px;
