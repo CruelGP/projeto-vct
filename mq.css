@@ -1,0 +1,14 @@
+@media screen and (max-width:950px){
+    span#burger
+    {display: block;}
+
+    menu#itens
+    {display: none;}
+
+    menu#itens > ul > li 
+    {display: block;
+    text-align: center;
+    padding: 5px;
+    background-color: #444444;
+    border-bottom: 1px solid white;}
+}
