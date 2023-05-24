@@ -4,8 +4,13 @@
 {font-family:'fungames';
 src: url('fontes/Fun\ Games.otf') format('opentype');}
 
+@font-face
+{font-family:'sworegame';
+src: url('fontes/Swore\ Games.otf') format('opentype');}
+
 :root
 {--game1: 'fungames', 'cursive';
+ --game2: 'sworegame', 'cursive';
 
 --cor0:#3100a5;
 --cor1:#ff3e1c;
@@ -82,9 +87,9 @@ box-shadow:0px 2px 10px rgba(0, 0, 0, 0.466);}
 
 main h2
 {color: #e0181c;
-padding: 10px;
+padding-left: 20px;
 padding-top: 20px;
-font-family: var(--game1);
+font-family: var(--game2);
 font-size: 2em;}
 
 main p
@@ -112,9 +117,12 @@ height: 90%;}
 
 footer
 {height: 50px;
-padding-top: 20px;
+background-image: linear-gradient(to bottom, var(--cor2), var(--cor0));}
+
+footer > a
+{padding-top: 20px;
 text-align: center;
+text-decoration: none;
 color: white;
 font-size: 2em;
-font-family: var(--game1);
-background-image: linear-gradient(to bottom, var(--cor2), var(--cor0));}
+font-family: var(--game2);}

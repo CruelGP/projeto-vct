@@ -1,4 +1,4 @@
-@media screen and (max-width:800px){
+@media screen and (max-width:670px){
     span#burger
     {display: block;}
 
@@ -11,4 +11,5 @@
     padding: 5px;
     background-color: #444444;
     border-bottom: 1px solid white;}
+
 }
